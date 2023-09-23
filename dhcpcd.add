@@ -1,0 +1,4 @@
+interface wlan0
+static ip_address=192.168.10.1/24
+nohook wpa_supplicant   # don't call the wpa_supplicant hook
+denyinterfaces wlan0    # don't send DHCP requests
