@@ -7,5 +7,7 @@ Instructions
 3) modify hostapd.conf -- Set a SSID and Password.
 4) Run install.sh
 5) Set up IP Tables rules to persist.
-    A) If you're not running anything else that will put all kinds of rules on your IP tables (e.g. Docker), run keeptables.sh
-   B) Otherwise, set cron job on root to run iptables.sh on reboot (e.g. @reboot bash path/to/iptables.sh)
+
+5A) If you're not running anything else that will put all kinds of rules on your IP tables (e.g. Docker), run keeptables.sh
+
+5B) Otherwise, set cron job on root to run iptables.sh on reboot (e.g. @reboot bash path/to/iptables.sh)
