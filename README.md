@@ -1,5 +1,5 @@
 # raspberry_pi_wifi_router
-Set of tools to set up a Raspberry Pi to be a wireless router
+Set of tools to set up a Raspberry Pi to be a wireless router. Have done this several times, so wrote shell scripts to speed up process.
 
 Instructions
 1) Install lite version of Raspberry Pi OS to a SD card.
